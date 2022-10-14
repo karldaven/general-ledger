@@ -17,6 +17,5 @@ CREATE TABLE `transaction` (
   `amount` decimal(10,2) NOT NULL,
   `balance` decimal(10,2) unsigned NOT NULL,
   `description` varchar(45) DEFAULT NULL,
-  `transaction_date_time` datetime(6) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
